@@ -1,19 +1,24 @@
 .larges {
     font-size: 3em;
 }
+
 .google {
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .g {
     color: #4285F4;
 }
+
 .o {
-    color:#EA4335;
+    color: #EA4335;
 }
+
 .o1 {
-    color:#FBBC05;
+    color: #FBBC05;
 }
+
 .l {
     color: #34A853;
 }
@@ -25,13 +30,13 @@ input[name="q"] {
 .bottom {
     position: absolute;
     bottom: 0;
-    right:32%;
-    font-weight:500
-    
+    right: 32%;
+    font-weight: 500
 }
+
 .bottom-i {
     right: 13%;
-    
+
 }
 
 .g-container {
@@ -40,21 +45,32 @@ input[name="q"] {
 }
 
 .google-brand {
-    font-size: 20px;
+    font-size: calc(100% + 1vw + 1vh);
     line-height: 0%;
 }
-#head, #head1 {
-    font-size:16px !important;
+
+#head,
+#head1 {
+    font-size: 16px !important;
     font-weight: 400;
     letter-spacing: 0 !important;
-    
+
 }
 
 input[name="q"]:hover {
-    box-shadow: 0px 0px 5px rgba(190,190,190);
+    box-shadow: 0px 0px 5px rgba(190, 190, 190);
     z-index: 99;
-    background:#fff;
+    background: #fff;
 }
+
 input[name="q"]:focus-visible {
-    border-radius:50%;
+    border-radius: 50%;
 }
+
+.nav-bar {
+    justify-content: flex-end;
+}
+.text-responsive {
+    font-size: calc(100% + 4vw + 4vh);
+  }
+  
